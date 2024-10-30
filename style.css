@@ -1,0 +1,343 @@
+
+
+
+
+body{
+
+    /* background: linear-gradient(70deg,#5f0646 5%, #020024 100%); */
+
+margin: 0;
+padding: 0;
+}
+
+
+header{
+
+
+    background: linear-gradient(196deg, rgba(252,176,69,1) 0%, rgba(253,29,29,1) 50%, rgba(131,58,180,1) 100%);
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+
+    height: 120px; 
+
+    top: -15px;
+    position: fixed;
+}
+
+.best{
+margin-top: 50px;
+margin-bottom: 50px;
+font-size: 30px;
+
+}
+
+
+
+
+
+
+.slogan_picture_box{
+
+
+    background: linear-gradient(196deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+
+/* height: 525px; */
+height: 645px;
+
+overflow: hidden;
+
+
+
+
+/* margin-top: 104px; */
+
+
+
+
+@media (max-width: 800px) {
+    height: 714px;  
+     }
+
+}
+
+
+
+.slogan_picture{
+   display: flex;
+   max-width: 580px;
+   margin-left: auto;
+   margin-right: auto;
+
+
+
+
+   margin-top: 120px;
+
+
+
+   align-items: center;
+
+@media (max-width: 800px) {
+    flex-wrap: wrap; 
+    max-width: 180px;
+     }
+
+}
+
+
+
+.slogan{
+
+    margin-right: 50px; 
+    margin-top: auto;
+    margin-bottom: auto;
+
+    font-size: 55px;
+}
+
+.picture{
+height: 450px;
+margin-top: 40px;
+width: fit-content;
+
+
+}
+
+
+
+
+
+.text_wrap{
+    background-color: rgb(34, 34, 34);
+    margin-top: -40px;
+    padding-top: 40px;
+}
+
+
+.text_box{
+    max-width: 950px;
+    /* max-width: 950px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+
+    /* background-color: brown; */
+
+
+    
+
+}
+
+.text{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+.discounts_box{
+/* background-color: rgb(204, 150, 74); */
+background-color: rgba(131,58,180,1);
+}
+.discounts{
+
+text-align: center;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.discounts_title{
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 40px;
+padding-top: 40px;
+    font-size: 40px;
+}
+
+.discounts-content{
+    text-align: start;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+align-items: center;
+padding-bottom: 40px;
+
+
+    /* background-color: brown; */
+}
+
+.offers{
+    display: flex;
+
+
+max-width: 600px;
+/* margin-bottom: 40px; */
+
+margin-left: auto;
+margin-right: auto;
+
+
+@media (max-width: 800px) {
+ flex-wrap: wrap; 
+  }
+    
+}
+
+.offer-picture{
+    height: 160px;
+    padding: 30px;
+}
+
+.offer-text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+.available-languages{
+width: 100%;
+align-items: center;
+background-color: rgb(34, 34, 34);
+
+margin-top: -40px;
+padding-top: 40px;
+}
+
+.available-languages-box{
+    align-items: center;
+    text-align: center;
+    max-width: 71%; 
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* background-color: blue; */
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+
+
+.flags-name{
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.available-languages-title{
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 60px;
+
+    font-size: 40px;
+}
+
+
+.flag{
+    height: 160px;
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.name{
+
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    
+    background: linear-gradient(196deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);height: 440px;
+    height: 350px;
+
+
+    /* @media (max-width: 688px) {
+        height: 700;
+         } */
+
+}
+
+.contacts-box{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 30px;
+    /* background-color: brown; */
+
+
+    @media (max-width: 800px) {
+        flex-wrap: wrap; 
+         }
+
+}
+
+.contact-icons{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+
+
+.phone{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.mail{display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+.Merch{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin-left: 50px;
+    }
+.youtube{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+
+
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
