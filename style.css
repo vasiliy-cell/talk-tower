@@ -18,9 +18,7 @@ header{
     text-align: center;
     width: 100%;
     overflow: hidden;
-
     height: 120px; 
-
     top: -15px;
     position: fixed;
 }
@@ -38,26 +36,17 @@ font-size: 30px;
 
 
 .slogan_picture_box{
-
-
     background: linear-gradient(196deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 
 
-/* height: 525px; */
 height: 645px;
 
 overflow: hidden;
-
-
-
-
 /* margin-top: 104px; */
 
-
-
-
 @media (max-width: 800px) {
-    height: 714px;  
+    height: 835px;  
+
      }
 
 }
@@ -110,7 +99,8 @@ width: fit-content;
 
 
 .text_wrap{
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(212, 212, 212);
+    /* background-color: rgba(252,176,69,1); */
     margin-top: -40px;
     padding-top: 40px;
 }
@@ -131,8 +121,9 @@ width: fit-content;
 }
 
 .text{
-    margin-bottom: 40px;
+    margin: 40px;
     font-size: 30px;
+    /* background-color: brown; */
 }
 
 
@@ -142,7 +133,7 @@ width: fit-content;
 
 
 .discounts_box{
-/* background-color: rgb(204, 150, 74); */
+
 background-color: rgba(131,58,180,1);
 }
 .discounts{
@@ -151,6 +142,9 @@ text-align: center;
     max-width: 950px;
     margin-left: auto;
     margin-right: auto;
+
+
+
 }
 
 .discounts_title{
@@ -171,8 +165,9 @@ padding-top: 40px;
 align-items: center;
 padding-bottom: 40px;
 
-
-    /* background-color: brown; */
+    @media (max-width: 530px) {
+        padding: 20px;
+    } 
 }
 
 .offers{
@@ -214,32 +209,44 @@ margin-right: auto;
 
 .available-languages{
 width: 100%;
-align-items: center;
-background-color: rgb(34, 34, 34);
+
+display: flex;
+
+/* background-color: rgb(212, 212, 212); */
+background-color: rgba(252,176,69,1);   
 
 margin-top: -40px;
 padding-top: 40px;
 }
 
 .available-languages-box{
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
-    max-width: 71%; 
-
     margin-left: auto;
     margin-right: auto;
-    
-    /* background-color: blue; */
+    max-width: 1200px;
     padding-bottom: 70px;
     padding-top: 40px;
+
+
 }
 
 
 .flags-name{
     display: flex;
     gap: 30px;
-    text-align: center;
-    flex-wrap: wrap;
+    /* text-align: center; */
+
+
+    @media (max-width: 1000px) {
+        flex-wrap: wrap;
+        padding: 30px;
+
+
+    }     
+
+    
+
 }
 
 
@@ -257,6 +264,11 @@ padding-top: 40px;
     height: 160px;
     max-width: 200px;
     overflow: hidden;
+
+    @media (max-width: 1500px) {
+        height: 120px;
+        max-width: 140px;
+         } 
 }
 
 .name{
@@ -280,11 +292,19 @@ footer{
     
     background: linear-gradient(196deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);height: 440px;
     height: 350px;
+    
 
+     
+    @media (max-width: 730px) {
+        height: 700px;
+         } 
+    
 
-    /* @media (max-width: 688px) {
-        height: 700;
-         } */
+         @media (max-width: 530px) {
+            height: 500px;
+             } 
+
+        
 
 }
 
@@ -296,11 +316,16 @@ footer{
     margin-left: auto;
     margin-right: auto; 
     font-size: 30px;
-    /* background-color: brown; */
 
 
-    @media (max-width: 800px) {
+    @media (max-width: 530px) {
+        font-size: 20px;
+         } 
+    
+
+    @media (max-width: 730px) {
         flex-wrap: wrap; 
+        flex-direction: column;
          }
 
 }
@@ -308,30 +333,46 @@ footer{
 .contact-icons{
     max-height: 100px;
     max-width: 100px;
+
+    @media (max-width: 530px) {
+        max-height: 63px;
+        max-width: 63px;
+         } 
 }
 
+
+
+.contacts-two{
+    margin-left: 50px;
+
+
+    @media (max-width: 730px) {
+        margin-left: 0;
+        padding-left: 0;
+        }
+}
 
 
 .phone{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding-top: 50px;
 }
 .mail{display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding-top: 50px;
 }
 .Merch{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding-top: 50px;
-    margin-left: 50px;
+    
     }
 .youtube{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding-top: 50px;
-    margin-left: 50px;
+
 }
 
 
